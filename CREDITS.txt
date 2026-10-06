@@ -1,0 +1,5 @@
+Blades of Majestica: Eftann Senpai and Zerotekz
+https://www.planetminecraft.com/texture-pack/blades-of-majestica-3d-weapon-pack/
+Impossible Dragon: McMakistein and collaborators (see DRAGON-credits.txt)
+https://mcmakistein.com/creations/impossible_enderdragon
+Original art, models and audio are preserved. Only Minecraft 26.2 technical format adapters are added. Obsolete 1.21 core shader overrides are omitted; shader-only glow/overlay effects are unavailable. Sacred Tree Blade uses the creator's retained 2D texture. Personal non-commercial server distribution; no ownership of third-party art claimed.
