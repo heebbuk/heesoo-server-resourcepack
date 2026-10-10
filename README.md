@@ -4,7 +4,7 @@ Minecraft Java 26.2 server pack for personal, non-commercial use.
 
 [Download the pack](https://raw.githubusercontent.com/heebbuk/heesoo-server-resourcepack/main/Heesoo-26.2-resources.zip)
 
-SHA-1: `c64a5058a158c152d93113c29867900e24546789`
+SHA-1: `f7fdfa76b88bc69ab234c5a147924b221cd69952`
 
 Use this download URL and SHA-1 in `server.properties` (`resource-pack` and `resource-pack-sha1`). Minecraft asks the player to accept server resource packs before downloading. The server owner can require acceptance with `require-resource-pack=true`.
 
@@ -35,3 +35,7 @@ Font size adjustment: Nanum Gothic Bold, Regular and ExtraBold each use size 10 
 ## HeesooServer 2.5.1
 
 Eight native Minecraft 26.2 equipment definitions hide worn humanoid armor (leather, chainmail, copper, iron, gold, diamond, netherite, turtle shell), including trim and enchantment effects. Inventory icons, defense values, elytra and existing animal armor mappings are preserved. All existing ZIP entries remain byte-for-byte unchanged; Nanum Gothic fonts remain size 10. No new bitmap assets or CustomModelData IDs are required. Equipment definitions were validated with the actual Minecraft 26.2 codec.
+
+## HeesooServer 2.5.2
+
+Three native Mythical Staff item models (nongko), Wither's Wrath music/trophy resources (ImHer0), and the expanded special shop back row. Existing GUI artwork, Nanum Gothic size 10, armor visibility and weapon models remain preserved. Existing sounds are retained with new Wither events added. Attribution and compatibility changes: ATTRIBUTIONS-2.5.2.md inside the ZIP.
