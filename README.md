@@ -2,9 +2,9 @@
 
 Minecraft Java 26.2 server pack for personal, non-commercial use.
 
-[Download the pack](https://raw.githubusercontent.com/heebbuk/heesoo-server-resourcepack/1655fc762858f3d7d6419238dc642f27570add3e/Heesoo-26.2-resources.zip)
+[Download the pack](https://raw.githubusercontent.com/heebbuk/heesoo-server-resourcepack/main/Heesoo-26.2-resources.zip)
 
-SHA-1: `3e120e042dc1658adab2eff8b3f3c55e53d3ff21`
+SHA-1: `9b4206fc81f5be2bfccf62beb8e83c24680f5ec9`
 
 Use this download URL and SHA-1 in `server.properties` (`resource-pack` and `resource-pack-sha1`). Minecraft asks the player to accept server resource packs before downloading. The server owner can require acceptance with `require-resource-pack=true`.
 
@@ -14,10 +14,18 @@ The 36-slot (9 by 4) finance menu uses `heesoo:finance` and `assets/heesoo/textu
 
 The 36-slot growth menu uses `heesoo:growth` and `assets/heesoo/textures/gui/growth_menu.png` (2172 × 724), with three 3×3 cards: 숙련도허브 / SKILL HUB, 수리 / REPAIR, 무기강화 / UPGRADE. Every card slot opens its existing server feature, including the implemented 1–20 equipment enhancement system. Slots 27–35 reuse the blue BACK banner.
 
-The 54-slot shop menu uses `heesoo:shop` and `assets/heesoo/textures/gui/shop_menu.png` (2160 × 1200). Top cards occupy SHOP 5×3 and WEAPON SHOP 4×3; lower cards occupy FISH MARKET 4×2 and SELL 5×2. Slots 45–53 use `heesoo:back_shop`, which reuses the original BACK image at the sixth row. Every card slot opens the existing shop or sale window. Keep PNG dimensions and card boundaries when replacing artwork. Growth/shop source font cells are 181×120 / 120×120, within the font atlas limit. GUI backgrounds require no new CustomModelData. Growth and shop artwork was generated for this server from the owner-provided design references; shop card placement was corrected with the owner’s approval. Validation: 38 unit tests and 300 isolated Paper menu checks passed; final rendering still needs a Minecraft client check.
+The 54-slot shop menu uses `heesoo:shop` and `assets/heesoo/textures/gui/shop_menu.png` (2160 × 1200). Top cards occupy SHOP 5×3 and SPECIAL SHOP 4×3; lower cards occupy FISH MARKET 4×2 and SELL 5×2. Slots 45–53 use `heesoo:back_shop`, which reuses the original BACK image at the sixth row. Every card slot opens the existing shop or sale window. Keep PNG dimensions and card boundaries when replacing artwork. Growth/shop source font cells are 181×120 / 120×120, within the font atlas limit. GUI backgrounds require no new CustomModelData. Growth and shop artwork was generated for this server from the owner-provided design references; shop card placement was corrected with the owner’s approval. Validation: 38 unit tests and 300 isolated Paper menu checks passed; final rendering still needs a Minecraft client check.
 
 Original assets: [Blades of Majestica by Eftann Senpai and Zerotekz](https://www.planetminecraft.com/texture-pack/blades-of-majestica-3d-weapon-pack/) and [Impossible Dragon by McMakistein and collaborators](https://mcmakistein.com/creations/impossible_enderdragon). The archive includes the original Dragon license and full credits. Artwork, models and audio remain their creators' work; no ownership is claimed.
 
 Technical adapters add native item model dispatch for Minecraft 26.2. Obsolete 1.21 core shader overrides are omitted, so shader-only glow and screen overlays are unavailable. Sacred Tree Blade uses the creator's retained 2D texture. In-game client rendering has not been verified automatically; check the card artwork and click alignment in a Minecraft client after accepting the pack.
 
 This repository contains resource files only. No server worlds, player information, configuration secrets or databases are published.
+
+## HeesooServer 2.5.0
+
+The shop's top-right card now opens SPECIAL SHOP (특별상점). The original SHOP, FISH MARKET and SELL images are byte-for-byte retained. New special-menu artwork is `assets/heesoo/textures/gui/special_menu.png` (2160×720), with XP SHOP on the left five columns and WEAPON SHOP on the right four columns. New experience-menu artwork is `assets/heesoo/textures/gui/experience_menu.png` (2160×960), six 3×2 cards in a 54-slot inventory; the final row reuses BACK. Both new bitmap fonts use 120×120 source cells.
+
+Default text uses Nanum Gothic Bold; supplementary fonts `heesoo:regular` and `heesoo:extra_bold` use Regular and ExtraBold. Fonts are bundled under the SIL Open Font License, included as `NanumGothic-OFL.txt`. Variation selectors VS15/VS16 have zero advance. No additional CustomModelData IDs are introduced.
+
+Validation: 53 unit tests, 294 isolated Paper checks, all 71 font-provider definitions parsed by the actual Minecraft 26.2 client codec. 1,849 existing resource files remain unchanged. Client screenshot and 2–4-player balance playtesting still require a live session.
