@@ -4,7 +4,7 @@ Minecraft Java 26.2 server pack for personal, non-commercial use.
 
 [Download the pack](https://raw.githubusercontent.com/heebbuk/heesoo-server-resourcepack/main/Heesoo-26.2-resources.zip)
 
-SHA-1: `9b4206fc81f5be2bfccf62beb8e83c24680f5ec9`
+SHA-1: `f14697fee590f48e59ecdad03b425c9d082b0c4b`
 
 Use this download URL and SHA-1 in `server.properties` (`resource-pack` and `resource-pack-sha1`). Minecraft asks the player to accept server resource packs before downloading. The server owner can require acceptance with `require-resource-pack=true`.
 
@@ -29,3 +29,5 @@ The shop's top-right card now opens SPECIAL SHOP (특별상점). The original SH
 Default text uses Nanum Gothic Bold; supplementary fonts `heesoo:regular` and `heesoo:extra_bold` use Regular and ExtraBold. Fonts are bundled under the SIL Open Font License, included as `NanumGothic-OFL.txt`. Variation selectors VS15/VS16 have zero advance. No additional CustomModelData IDs are introduced.
 
 Validation: 53 unit tests, 294 isolated Paper checks, all 71 font-provider definitions parsed by the actual Minecraft 26.2 client codec. 1,849 existing resource files remain unchanged. Client screenshot and 2–4-player balance playtesting still require a live session.
+
+Font size adjustment: Nanum Gothic Bold, Regular and ExtraBold each use size 10 (previously 11). Card artwork, bitmap GUI fonts and all other pack files remain unchanged.
