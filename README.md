@@ -4,7 +4,7 @@ Minecraft Java 26.2 server pack for personal, non-commercial use.
 
 [Download the pack](https://raw.githubusercontent.com/heebbuk/heesoo-server-resourcepack/main/Heesoo-26.2-resources.zip)
 
-SHA-1: `f14697fee590f48e59ecdad03b425c9d082b0c4b`
+SHA-1: `c64a5058a158c152d93113c29867900e24546789`
 
 Use this download URL and SHA-1 in `server.properties` (`resource-pack` and `resource-pack-sha1`). Minecraft asks the player to accept server resource packs before downloading. The server owner can require acceptance with `require-resource-pack=true`.
 
@@ -31,3 +31,7 @@ Default text uses Nanum Gothic Bold; supplementary fonts `heesoo:regular` and `h
 Validation: 53 unit tests, 294 isolated Paper checks, all 71 font-provider definitions parsed by the actual Minecraft 26.2 client codec. 1,849 existing resource files remain unchanged. Client screenshot and 2–4-player balance playtesting still require a live session.
 
 Font size adjustment: Nanum Gothic Bold, Regular and ExtraBold each use size 10 (previously 11). Card artwork, bitmap GUI fonts and all other pack files remain unchanged.
+
+## HeesooServer 2.5.1
+
+Eight native Minecraft 26.2 equipment definitions hide worn humanoid armor (leather, chainmail, copper, iron, gold, diamond, netherite, turtle shell), including trim and enchantment effects. Inventory icons, defense values, elytra and existing animal armor mappings are preserved. All existing ZIP entries remain byte-for-byte unchanged; Nanum Gothic fonts remain size 10. No new bitmap assets or CustomModelData IDs are required. Equipment definitions were validated with the actual Minecraft 26.2 codec.
