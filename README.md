@@ -4,7 +4,7 @@ Minecraft Java 26.2 server pack for personal, non-commercial use.
 
 [Download the pack](https://raw.githubusercontent.com/heebbuk/heesoo-server-resourcepack/main/Heesoo-26.2-resources.zip)
 
-SHA-1: `f7fdfa76b88bc69ab234c5a147924b221cd69952`
+SHA-1: `274951d9a3d0f197200ac63d4c456f7f14443f84`
 
 Use this download URL and SHA-1 in `server.properties` (`resource-pack` and `resource-pack-sha1`). Minecraft asks the player to accept server resource packs before downloading. The server owner can require acceptance with `require-resource-pack=true`.
 
@@ -39,3 +39,7 @@ Eight native Minecraft 26.2 equipment definitions hide worn humanoid armor (leat
 ## HeesooServer 2.5.2
 
 Three native Mythical Staff item models (nongko), Wither's Wrath music/trophy resources (ImHer0), and the expanded special shop back row. Existing GUI artwork, Nanum Gothic size 10, armor visibility and weapon models remain preserved. Existing sounds are retained with new Wither events added. Attribution and compatibility changes: ATTRIBUTIONS-2.5.2.md inside the ZIP.
+
+## HeesooServer 2.6.0
+
+Cooking laboratory GUI, fourteen food icons, four held platter models and forty fish icons. Existing 1,900 resources remain unchanged.
