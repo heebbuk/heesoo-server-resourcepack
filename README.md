@@ -4,7 +4,7 @@ Minecraft Java 26.2 server pack for personal, non-commercial use.
 
 [Download the pack](https://raw.githubusercontent.com/heebbuk/heesoo-server-resourcepack/main/Heesoo-26.2-resources.zip)
 
-SHA-1: `2fdd22d5e66773d006359dedb6308a52f8fc631a`
+SHA-1: `e53c97b8fa7d246ac083000cf7e4da579b8dd950`
 
 Use this download URL and SHA-1 in `server.properties` (`resource-pack` and `resource-pack-sha1`). Minecraft asks the player to accept server resource packs before downloading. The server owner can require acceptance with `require-resource-pack=true`.
 
@@ -47,3 +47,7 @@ Cooking laboratory GUI, fourteen food icons, four held platter models and forty 
 2.6.0 resource fix: register the shared food/fish texture in the Minecraft 26.2 item atlas.
 
 Staff texture fix: register the five existing staff textures in Minecraft 26.2 item atlas. All other ZIP entries are unchanged. Native item/model codecs pass (3 item definitions, 9 models); actual client screenshot check remains pending.
+
+## Content patch: shared panels and fishing gauge
+
+HeesooServer menus now use a restrained blue-gray panel family, native item buttons, Nanum Gothic typography and a single back button. The earlier illustrated card assets remain in the archive but are no longer the active menu layout. Six atlas-safe panel textures live at assets/heesoo/textures/gui/panel_1.png through panel_6.png; slot interiors are transparent so they cannot cover item icons. External InfiniteShops and EMF chest menus use the same panel font through their existing holders. The fishing title gauge uses heesoo:fishing_gauge. Staff gameplay/datapack was removed; retained models only preserve appearance of old items. No new CustomModelData IDs. Minecraft client visual inspection remains required.
