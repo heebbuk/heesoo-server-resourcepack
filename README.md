@@ -4,7 +4,7 @@ Minecraft Java 26.2 server pack for personal, non-commercial use.
 
 [Download the pack](https://raw.githubusercontent.com/heebbuk/heesoo-server-resourcepack/main/Heesoo-26.2-resources.zip)
 
-SHA-1: `40164c82b6f08e95d9f41c6a44226132976fb29e`
+SHA-1: `2fdd22d5e66773d006359dedb6308a52f8fc631a`
 
 Use this download URL and SHA-1 in `server.properties` (`resource-pack` and `resource-pack-sha1`). Minecraft asks the player to accept server resource packs before downloading. The server owner can require acceptance with `require-resource-pack=true`.
 
@@ -45,3 +45,5 @@ Three native Mythical Staff item models (nongko), Wither's Wrath music/trophy re
 Cooking laboratory GUI, fourteen food icons, four held platter models and forty fish icons. Existing 1,900 resources remain unchanged.
 
 2.6.0 resource fix: register the shared food/fish texture in the Minecraft 26.2 item atlas.
+
+Staff texture fix: register the five existing staff textures in Minecraft 26.2 item atlas. All other ZIP entries are unchanged. Native item/model codecs pass (3 item definitions, 9 models); actual client screenshot check remains pending.
